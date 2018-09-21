@@ -1,0 +1,5 @@
+/Users/rviera/projects/StripeAPI_Prototype/StripeAPI_Prototype/obj/Debug/netcoreapp2.1/StripeAPI_Prototype.csproj.CoreCompileInputs.cache
+/Users/rviera/projects/StripeAPI_Prototype/StripeAPI_Prototype/obj/Debug/netcoreapp2.1/StripeAPI_Prototype.RazorAssemblyInfo.cache
+/Users/rviera/projects/StripeAPI_Prototype/StripeAPI_Prototype/obj/Debug/netcoreapp2.1/StripeAPI_Prototype.RazorAssemblyInfo.cs
+/Users/rviera/projects/StripeAPI_Prototype/StripeAPI_Prototype/obj/Debug/netcoreapp2.1/StripeAPI_Prototype.AssemblyInfoInputs.cache
+/Users/rviera/projects/StripeAPI_Prototype/StripeAPI_Prototype/obj/Debug/netcoreapp2.1/StripeAPI_Prototype.AssemblyInfo.cs

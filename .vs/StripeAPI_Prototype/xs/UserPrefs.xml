@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{D9FEE041-83BC-4937-AD37-DBEDF8C0356D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="StripeAPI_Prototype/Services/Stripe/WebHooks/IStripeWebHookService.cs">
+    <Files>
+      <File FileName="StripeAPI_Prototype/API/apiService.cs" Line="26" Column="5" />
+      <File FileName="StripeAPI_Prototype/Controllers/ValuesController.cs" Line="9" Column="30" />
+      <File FileName="StripeAPI_Prototype/Classes/User.cs" Line="14" Column="31" />
+      <File FileName="StripeAPI_Prototype/Controllers/StripeController.cs" Line="18" Column="29" />
+      <File FileName="StripeAPI_Prototype/Services/Stripe/InvoiceService/IInvoiceService.cs" Line="1" Column="1" />
+      <File FileName="StripeAPI_Prototype/Services/Stripe/StripeService/StripeService.cs" Line="13" Column="45" />
+      <File FileName="StripeAPI_Prototype/Services/Stripe/SubscriptionService/ISubscriptionService.cs" Line="1" Column="1" />
+      <File FileName="StripeAPI_Prototype/Services/Stripe/SubscriptionService/SubscriptionService.cs" Line="18" Column="10" />
+      <File FileName="StripeAPI_Prototype/Services/Stripe/WebHooks/IStripeWebHookService.cs" Line="2" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.StripeAPI__Prototype PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/rviera/projects/StripeAPI_Prototype/StripeAPI_Prototype/Controllers/ValuesController.cs" relfile="StripeAPI_Prototype/Controllers/ValuesController.cs" line="39" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

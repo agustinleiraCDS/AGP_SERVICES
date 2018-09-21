@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Classes\" />
+    <Folder Include="API\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Stripe.net" Version="19.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\ComplexTypes\ContentBlockSettings.cs" />
+    <Compile Remove="Models\ComplexTypes\ContentNeighbours.cs" />
+    <Compile Remove="Models\Forums\Forum.cs" />
+    <Compile Remove="Models\Content\Content.cs" />
+    <Compile Remove="Models\Media\MediaObject.cs" />
+    <Compile Remove="Models\Property\FloorArea.cs" />
+    <Compile Remove="Models\HoodDbContext.cs" />
+    <Compile Remove="BaseTypes\BaseController.cs" />
+    <Compile Remove="Entities\BaseEntity.cs" />
+    <Compile Remove="Models\Payments\BaseOrder.cs" />
+    <Compile Remove="Services\Stripe\CustomerService\CustomerService.cs" />
+    <Compile Remove="Services\Stripe\CardService\CardService.cs" />
+    <Compile Remove="Services\Stripe\InvoiceService\IInvoiceService.cs" />
+    <Compile Remove="Services\Stripe\InvoiceService\InvoiceService.cs" />
+    <Compile Remove="Services\Stripe\WebHooks\IStripeWebHookService.cs" />
+  </ItemGroup>
+</Project>
