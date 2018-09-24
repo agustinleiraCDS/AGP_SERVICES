@@ -36,8 +36,20 @@ namespace StripeAPI_Prototype.Controllers
         [HttpPost("PrimerPost/")]
         public IActionResult PrimerPost([FromForm] User param)
         {
+            TestController pepe = new TestController();
+            int res = pepe.CreateSubscription("aleira@codigodelsur.com", "testPlan");
             return  Ok("{value:\"primer post "+ param.toString() + "\" }");
         }
+
+        // POST api/values
+        [HttpPost("CancelSubscription/")]
+        public IActionResult CancelSubscription([FromForm] User param)
+        {
+            TestController pepe = new TestController();
+            int res = pepe.CancelSubscription("aleira@codigodelsur.com", "testPlan");
+            return Ok("{value:\"CancelSubscription " + param.toString() + "\" }");
+        }
+
 
         [HttpPost("SegundoPost/")]
         public ActionResult SegundoPost()

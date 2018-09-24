@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Stripe.net" Version="19.7.0" />
+    <PackageReference Include="Stripe.net" Version="19.8.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -31,5 +31,8 @@
     <Compile Remove="Services\Stripe\InvoiceService\IInvoiceService.cs" />
     <Compile Remove="Services\Stripe\InvoiceService\InvoiceService.cs" />
     <Compile Remove="Services\Stripe\WebHooks\IStripeWebHookService.cs" />
+    <Compile Remove="Services\Stripe\SubscriptionService\ISubscriptionService.cs" />
+    <Compile Remove="Services\Stripe\SubscriptionService\SubscriptionService.cs" />
+    <Compile Remove="Services\Stripe\BillingService\BillingService.cs" />
   </ItemGroup>
 </Project>

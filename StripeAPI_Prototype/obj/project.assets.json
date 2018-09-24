@@ -2866,7 +2866,7 @@
           }
         }
       },
-      "Stripe.net/19.7.0": {
+      "Stripe.net/19.8.0": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
@@ -7216,17 +7216,17 @@
         "version.txt"
       ]
     },
-    "Stripe.net/19.7.0": {
-      "sha512": "i1WwBGw8SXpKGM1mI3pmySbKpwyqg2gU1N3F/A+ZBna1BJdSFpamHUdZKtI4jdox04pGJdDxWnDoYMQ1F+bNaQ==",
+    "Stripe.net/19.8.0": {
+      "sha512": "OoE1slvQhkW8e69/WELovzDE/SZ9UVeOqB155FfzDRGhLe1Yn7/n2PzyE25JyR8BcsAXAQ6o4fz+DtP+xs64qg==",
       "type": "package",
-      "path": "stripe.net/19.7.0",
+      "path": "stripe.net/19.8.0",
       "files": [
         ".signature.p7s",
         "lib/net45/Stripe.net.dll",
         "lib/net45/Stripe.net.xml",
         "lib/netstandard1.2/Stripe.net.dll",
         "lib/netstandard1.2/Stripe.net.xml",
-        "stripe.net.19.7.0.nupkg.sha512",
+        "stripe.net.19.8.0.nupkg.sha512",
         "stripe.net.nuspec"
       ]
     },
@@ -11526,7 +11526,7 @@
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "Stripe.net >= 19.7.0"
+      "Stripe.net >= 19.8.0"
     ]
   },
   "packageFolders": {
@@ -11575,7 +11575,7 @@
           },
           "Stripe.net": {
             "target": "Package",
-            "version": "19.7.0"
+            "version": "19.8.0"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
