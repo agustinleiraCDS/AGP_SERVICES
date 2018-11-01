@@ -16,7 +16,7 @@ namespace StripeAPI_Prototype.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "value1", "value333" };
         }
 
         // GET api/values/5
@@ -27,27 +27,37 @@ namespace StripeAPI_Prototype.Controllers
         }
 
         // POST api/values
-        /*[HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("CreateSubscription/")]
+        public IActionResult CreateSubscription([FromForm] StripeServiceParams param)
         {
-        }*/
 
-        // POST api/values
-        [HttpPost("PrimerPost/")]
-        public IActionResult PrimerPost([FromForm] User param)
-        {
-            TestController pepe = new TestController();
-            int res = pepe.CreateSubscription("aleira@codigodelsur.com", "testPlan");
-            return  Ok("{value:\"primer post "+ param.toString() + "\" }");
+            try
+            {
+                int res = StripeController.getInstance().CreateSubscription(param);
+
+            }
+            catch (Exception e)
+            {
+                return new BadRequestObjectResult(new { message = "400 Bad Request", currentDate = DateTime.Now, description = e.Message }); ;
+            }
+
+            return new ObjectResult(new { message = "200 Ok", currentDate = DateTime.Now });
         }
 
         // POST api/values
         [HttpPost("CancelSubscription/")]
-        public IActionResult CancelSubscription([FromForm] User param)
+        public IActionResult CancelSubscription([FromForm] StripeServiceParams param)
         {
-            TestController pepe = new TestController();
-            int res = pepe.CancelSubscription("aleira@codigodelsur.com", "testPlan");
-            return Ok("{value:\"CancelSubscription " + param.toString() + "\" }");
+            try
+            {
+                int res = StripeController.getInstance().CancelSubscription(param);
+            }
+            catch (Exception e)
+            {
+                return new BadRequestObjectResult(new { message = "400 Bad Request", currentDate = DateTime.Now, description = e.Message }); ;
+            }
+
+            return new ObjectResult(new { message = "200 Ok", currentDate = DateTime.Now });
         }
 
 

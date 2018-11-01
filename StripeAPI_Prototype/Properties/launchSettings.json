@@ -12,19 +12,26 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/V1",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "stripePrivTok": "sk_test_sjbGjYh6HKH6xSGnu1F3XWqG",
+        "mycurrentDomain": "https://www.thesullivangroup.com",
+        "purchaseMethodURL": "/RSQSolutions/ASP/services_purchase_subscription.asp",
+        "newsLetterWebhookURL": "https://hooks.zapier.com/hooks/catch/3912961/llfuft/",
+        "invoiceServiceURL": "https://hooks.zapier.com/hooks/catch/3912961/llfs9y/"
       }
+      
     },
     "StripeAPI_Prototype": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "api/values",
+      "launchUrl": "api/V1",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
+
     }
   }
 }

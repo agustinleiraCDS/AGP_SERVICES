@@ -1,0 +1,17 @@
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\bin\Debug\netcoreapp2.1\win-x86\hostpolicy.dll
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\bin\Debug\netcoreapp2.1\win-x86\hostfxr.dll
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\bin\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.exe
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\bin\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.deps.json
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\bin\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.runtimeconfig.json
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\bin\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.runtimeconfig.dev.json
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\bin\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.dll
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\bin\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.pdb
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\obj\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.csprojAssemblyReference.cache
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\obj\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.csproj.CoreCompileInputs.cache
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\obj\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.RazorAssemblyInfo.cache
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\obj\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.RazorAssemblyInfo.cs
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\obj\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.AssemblyInfoInputs.cache
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\obj\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.AssemblyInfo.cs
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\obj\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.RazorTargetAssemblyInfo.cache
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\obj\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.dll
+C:\Users\Agustin\Desktop\Stripe_Prototype_DotNetRepo\StripeAPI-Prototype\StripeAPI_Prototype\obj\Debug\netcoreapp2.1\win-x86\StripeAPI_Prototype.pdb
