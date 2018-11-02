@@ -15,10 +15,7 @@ namespace StripeAPI_Prototype.Controllers
 
         public int UseWebHook(JObject param)
         {
-
-            //var httpWebRequest = (HttpWebRequest)WebRequest.Create(Environment.GetEnvironmentVariable("newsLetterWebhookURL"));
             var httpWebRequest = (HttpWebRequest)WebRequest.Create(Utils.getInstance().newsLetterWebhookURL);
-
 
             httpWebRequest.ContentType = "application/json";
             httpWebRequest.Method = "POST";

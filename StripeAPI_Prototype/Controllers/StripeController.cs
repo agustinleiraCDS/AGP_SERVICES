@@ -55,8 +55,6 @@ namespace StripeAPI_Prototype.Controllers
             {
                 if (info.paymentMethod.ToLower() == "cc")
                 {
-                    //StripeConfiguration.SetApiKey(Environment.GetEnvironmentVariable("stripePrivTok"));
-                    //StripeConfiguration.SetApiKey("sk_test_sjbGjYh6HKH6xSGnu1F3XWqG");
                     StripeConfiguration.SetApiKey(Utils.getInstance().stripePrivTok);
                     var customers = new StripeCustomerService();
                     var charges = new StripeChargeService();
@@ -151,17 +149,15 @@ namespace StripeAPI_Prototype.Controllers
                 if (info.paymentMethod.ToLower() == "cc")
                 {
                     //sURL = Environment.GetEnvironmentVariable("mycurrentDomain") + Environment.GetEnvironmentVariable("purchaseMethodURL");
-                    sURL = "https://www.thesullivangroup.com/RSQSolutions/ASP/services_purchase_subscription.asp";
-                    //sURL = Utils.getInstance().mycurrentDomain + "/RSQSolutions/ASP/services_purchase_subscription.asp";
+                    //sURL = "https://www.thesullivangroup.com/RSQSolutions/ASP/services_purchase_subscription.asp";
+                    sURL = Utils.getInstance().mycurrentDomain + "/RSQSolutions/ASP/services_purchase_subscription.asp";
                 }
                 else if (info.paymentMethod.ToLower() == "invoice")
                 {
-                    //sURL = Environment.GetEnvironmentVariable("invoiceServiceURL");
-                    //sURL = "https://hooks.zapier.com/hooks/catch/3912961/llfs9y/";
                     sURL = Utils.getInstance().invoiceServiceURL;
                     cres = makePOST(param, sURL);
-                    sURL = "https://www.thesullivangroup.com/RSQSolutions/ASP/services_purchase_subscription.asp";
-                    //sURL = Utils.getInstance().mycurrentDomain + "/RSQSolutions/ASP/services_purchase_subscription.asp";
+                    //sURL = "https://www.thesullivangroup.com/RSQSolutions/ASP/services_purchase_subscription.asp";
+                    sURL = Utils.getInstance().mycurrentDomain + "/RSQSolutions/ASP/services_purchase_subscription.asp";
                 }
                cres = makePOST(param, sURL);
 
@@ -176,8 +172,6 @@ namespace StripeAPI_Prototype.Controllers
 
         public int CancelSubscription(StripeServiceParams info)
         {
-            //StripeConfiguration.SetApiKey(Environment.GetEnvironmentVariable("stripePrivTok"));
-            //StripeConfiguration.SetApiKey("sk_test_sjbGjYh6HKH6xSGnu1F3XWqG");
             StripeConfiguration.SetApiKey(Utils.getInstance().stripePrivTok);
             if (info.isValidToCancelSubscription())
             {
